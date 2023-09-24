@@ -1,0 +1,1 @@
+C:\Users\Егор\Desktop\ООП\ДЗ №3\1.2\NumInput\NumInputMAUI\NumInputMAUI.csproj;x64
