@@ -1,63 +1,61 @@
-﻿using System.Diagnostics.Metrics;
-using System.Text;
+﻿using System.Text;
 
-namespace Program
+namespace Program;
+
+class Team
 {
-    class Team
+    private readonly List<Worker> workerList;
+
+    private readonly string name;
+
+    public Team(string name) 
     {
-        private List<Worker> WorkerList;
+        this.name = name;
 
-        private readonly string Name;
-        public Team(string name) 
-        {
-            Name = name;
-
-            WorkerList = new List<Worker>();
-        }
-        
-        public void AddMember(Worker worker) 
-        {
-            WorkerList.Add(worker);
-        }
-
-        public void WorkADay()
-        { 
-            foreach(Worker worker in WorkerList) 
-            { 
-                worker.FillWorkDay(); 
-            }
-        }
-        public string GetInfo() 
-        {
-
-            StringBuilder result = new();
-
-            result.AppendLine($"Team name: {Name}");
-
-            int counter = 1;
-            foreach(Worker worker in WorkerList) 
-            {
-                result.AppendLine($"{counter++}. {worker.Name}");
-            }
-
-            return result.ToString();
-        }
-
-        public string GetDetailedInfo() 
-        {
-            StringBuilder result = new();
-
-            result.AppendLine($"Team name: {Name}");
-
-            int counter = 1;
-            foreach (Worker worker in WorkerList)
-            {
-                result.AppendLine($"{counter++}. {worker.Name} - {worker.Position} - {worker.WorkDay}");
-            }
-
-            return result.ToString();
-        }
+        workerList = new List<Worker>();
+    }
     
+    public void AddMember(Worker worker) 
+    {
+        workerList.Add(worker);
+    }
+
+    public void WorkADay()
+    { 
+        foreach (var worker in workerList) 
+        { 
+            worker.FillWorkDay(); 
+        }
+    }
+
+    public string GetInfo() 
+    {
+        StringBuilder result = new();
+
+        result.AppendLine($"Ім'я команди: {name}");
+
+        int counter = 1;
+        foreach (var worker in workerList) 
+        {
+            result.AppendLine($"{counter++}. {worker.Name}");
+        }
+
+        return result.ToString();
+    }
+
+    public string GetDetailedInfo() 
+    {
+        StringBuilder result = new();
+
+        result.AppendLine($"Ім'я команди: {name}");
+
+        int counter = 1;
+        foreach (var worker in workerList)
+        {
+            result.AppendLine($"{counter++}. {worker.Name} - {worker.Position} - {worker.WorkDay}");
+        }
+
+        return result.ToString();
     }
 
 }

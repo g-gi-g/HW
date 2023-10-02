@@ -1,33 +1,33 @@
-﻿namespace Program
-{
-    class Manager : Worker
-    {
-        private Random RandVar;
-        public Manager(string name)
-            : base(name)
-        {
-            Position += "Менеджер";
+﻿namespace Program;
 
-            RandVar = new Random();
+class Manager : Worker
+{
+    private Random randVar;
+
+    public Manager(string name)
+        : base(name)
+    {
+        Position = "Менеджер";
+
+        randVar = new Random();
+    }
+
+    public override void FillWorkDay()
+    {
+        int numOfCalls = randVar.Next(1, 11);
+
+        for (int i = 0; i < numOfCalls; i++) 
+        {
+            Call();
         }
 
-        public override void FillWorkDay()
+        Relax();
+
+        numOfCalls = randVar.Next(1, 6);
+
+        for (int i = 0; i < numOfCalls; i++) 
         {
-            int numOfCalls = RandVar.Next(1, 11);
-
-            for (int i = 0; i < numOfCalls; i++) 
-            {
-                Call();
-            }
-
-            Relax();
-
-            numOfCalls = RandVar.Next(1, 6);
-
-            for (int i = 0; i < numOfCalls; i++) 
-            {
-                Call();
-            }
+            Call();
         }
     }
 }

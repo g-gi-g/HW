@@ -1,19 +1,18 @@
-﻿namespace Program
-{
-    class Developer : Worker
-    {
-        public Developer(string name)
-            : base(name)
-        {
-            Position += "Розробник";
-        }
+﻿namespace Program;
 
-        public override void FillWorkDay()
-        {
-            WriteCode();
-            Call();
-            Relax();
-            WriteCode();
-        }
+class Developer : Worker
+{
+    public Developer(string name)
+        : base(name)
+    {
+        Position = "Розробник";
+    }
+
+    public override void FillWorkDay()
+    {
+        WriteCode();
+        Call();
+        Relax();
+        WriteCode();
     }
 }

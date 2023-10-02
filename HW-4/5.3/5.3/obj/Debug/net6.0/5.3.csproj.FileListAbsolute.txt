@@ -12,3 +12,17 @@ C:\Users\Егор\Desktop\ООП\ДЗ №4\5.3\5.3\obj\Debug\net6.0\refint\5.3.d
 C:\Users\Егор\Desktop\ООП\ДЗ №4\5.3\5.3\obj\Debug\net6.0\5.3.pdb
 C:\Users\Егор\Desktop\ООП\ДЗ №4\5.3\5.3\obj\Debug\net6.0\5.3.genruntimeconfig.cache
 C:\Users\Егор\Desktop\ООП\ДЗ №4\5.3\5.3\obj\Debug\net6.0\ref\5.3.dll
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\bin\Debug\net6.0\5.3.exe
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\bin\Debug\net6.0\5.3.deps.json
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\bin\Debug\net6.0\5.3.runtimeconfig.json
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\bin\Debug\net6.0\5.3.dll
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\bin\Debug\net6.0\5.3.pdb
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\obj\Debug\net6.0\5.3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\obj\Debug\net6.0\5.3.AssemblyInfoInputs.cache
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\obj\Debug\net6.0\5.3.AssemblyInfo.cs
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\obj\Debug\net6.0\5.3.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\obj\Debug\net6.0\5.3.dll
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\obj\Debug\net6.0\refint\5.3.dll
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\obj\Debug\net6.0\5.3.pdb
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\obj\Debug\net6.0\5.3.genruntimeconfig.cache
+C:\Users\Егор\Documents\GitHub\HW\HW-4\5.3\5.3\obj\Debug\net6.0\ref\5.3.dll

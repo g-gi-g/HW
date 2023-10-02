@@ -1,41 +1,66 @@
-﻿namespace Program
-{
+﻿namespace Program;
 
-    class Converter
-    { 
-        
-        public static decimal DollarRatio { get; set; }
+class Converter
+{ 
+    
+    public decimal DollarRatio { get; set; }
 
-        public static decimal EuroRatio { get; set; }
+    public decimal EuroRatio { get; set; }
 
-        public Converter(decimal dollarRatio, decimal euroRatio)
+    public Converter(decimal dollarRatio, decimal euroRatio)
+    {
+        ValidateUnit(dollarRatio);
+
+        ValidateUnit(euroRatio);
+
+        DollarRatio = dollarRatio;
+
+        EuroRatio = euroRatio;
+    }
+
+    private void ValidateUnit(decimal value) 
+    {
+        if (value <= 0)
         {
-            DollarRatio = dollarRatio;
-            EuroRatio = euroRatio;
-        }
+            Console.WriteLine("Курс не може бути не додатним");
 
-        static public decimal HryvniaDollar(decimal hryvnia)
-        {
-            decimal result = hryvnia/DollarRatio;
-            return result;
+            throw new Exception();
         }
+    }
 
-        static public decimal HryvniaEuro(decimal hryvnia)
-        {
-            decimal result = hryvnia / EuroRatio;
-            return result;
-        }
+    public decimal ExchangeHryvniaToDollar(decimal hryvnia)
+    {
+        ValidateUnit(hryvnia);
 
-        static public decimal DollarHryvnia(decimal dollar)
-        {
-            decimal result = dollar * DollarRatio;
-            return result;
-        }
+        decimal result = hryvnia/DollarRatio;
 
-        static public decimal EuroHryvnia(decimal euro)
-        {
-            decimal result = euro * EuroRatio;
-            return result;
-        }
+        return result;
+    }
+
+    public decimal ExchangeHryvniaToEuro(decimal hryvnia)
+    {
+        ValidateUnit(hryvnia);
+
+        decimal result = hryvnia / EuroRatio;
+
+        return result;
+    }
+
+    public decimal ExchangeDollarToHryvnia(decimal dollar)
+    {
+        ValidateUnit(dollar);
+
+        decimal result = dollar * DollarRatio;
+
+        return result;
+    }
+
+    public decimal ExchangeEuroToHryvnia(decimal euro)
+    {
+        ValidateUnit(euro);
+
+        decimal result = euro * EuroRatio;
+
+        return result;
     }
 }

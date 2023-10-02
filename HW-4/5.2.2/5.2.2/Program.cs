@@ -4,11 +4,11 @@ using System.Xml.Serialization;
 namespace Program
 {
 
-    class Prog
+    class Program
     {
-        
         private static Team? CurrentTeam = null;
-        static string? GetWorkerName()
+
+        private static string? GetWorkerName()
         {
             Console.WriteLine("Введіть ім'я робітника");
             var name = Console.ReadLine();
@@ -19,7 +19,7 @@ namespace Program
         {
             var name = GetWorkerName();
 
-            if (name == null) 
+            if (name is null) 
             {
                 Console.WriteLine("Некоректні дані");
                 return;
@@ -27,14 +27,14 @@ namespace Program
 
             var worker = new Developer(name);
 
-            CurrentTeam.AddMember(worker);
+            CurrentTeam?.AddMember(worker);
         }
 
         private static void AddManager()
         {
             var name = GetWorkerName();
 
-            if (name == null)
+            if (name is null)
             {
                 Console.WriteLine("Некоректні дані");
                 return;
@@ -42,7 +42,7 @@ namespace Program
 
             var worker = new Manager(name);
 
-            CurrentTeam.AddMember(worker);
+            CurrentTeam?.AddMember(worker);
         }
 
         private static string? GetTeamName()
@@ -56,7 +56,7 @@ namespace Program
         {
             var name = GetTeamName();
 
-            if (name == null)
+            if (name is null)
             {
                 Console.WriteLine("Некоректні дані");
                 return;
@@ -102,24 +102,54 @@ namespace Program
                         AddTeam();
                         break;
                     case 2:
-                        if (CurrentTeam is not null) { AddDeveloper(); }
-                        else { Console.WriteLine("Ведіть спочатку команду, у яку додаєте розробника"); }
+                        if (CurrentTeam is not null) 
+                        {
+                            AddDeveloper();
+                        }
+                        else 
+                        { 
+                            Console.WriteLine("Введіть спочатку команду, у яку додаєте розробника"); 
+                        }
                         break;
                     case 3:
-                        if (CurrentTeam is not null) { AddManager(); }
-                        else { Console.WriteLine("Ведіть спочатку команду, у яку додаєте менеджера"); }
+                        if (CurrentTeam is not null) 
+                        { 
+                            AddManager();
+                        }
+                        else 
+                        { 
+                            Console.WriteLine("Введіть спочатку команду, у яку додаєте менеджера");
+                        }
                         break;
                     case 4:
-                        if (CurrentTeam is not null) { CurrentTeam.WorkADay(); }
-                        else { Console.WriteLine("Ведіть спочатку команду, з якою будете працювати"); }
+                        if (CurrentTeam is not null) 
+                        { 
+                            CurrentTeam.WorkADay();
+                        }
+                        else 
+                        {
+                            Console.WriteLine("Введіть спочатку команду, з якою будете працювати"); 
+                        }
                         break;
                     case 5:
-                        if (CurrentTeam is not null) { Console.WriteLine(CurrentTeam.GetInfo()); }
-                        else { Console.WriteLine("Ведіть спочатку команду, яку хочете продивитися"); }
+                        if (CurrentTeam is not null) 
+                        { 
+                            Console.WriteLine(CurrentTeam.GetInfo());
+                        }
+                        else 
+                        { 
+                            Console.WriteLine("Введіть спочатку команду, яку хочете продивитися");
+                        }
                         break;
                     case 6:
-                        if (CurrentTeam is not null) { Console.WriteLine(CurrentTeam.GetDetailedInfo()); ; }
-                        else { Console.WriteLine("Ведіть спочатку команду, яку хочете продивитися"); }
+                        if (CurrentTeam is not null) 
+                        {
+                            Console.WriteLine(CurrentTeam.GetDetailedInfo()); ; 
+                        }
+                        else 
+                        {
+                            Console.WriteLine("Введіть спочатку команду, яку хочете продивитися");
+                        }
                         break;
                     default:
                         Console.WriteLine("Невідома команда");
