@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsApp1", "ConsApp1\ConsApp1.csproj", "{F96C7821-EC90-4EC3-986F-6EE4B1F44CBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsApp2", "ConsApp2\ConsApp2.csproj", "{8048F00C-6F7D-45A8-B7D2-E5797EE9F21B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F96C7821-EC90-4EC3-986F-6EE4B1F44CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96C7821-EC90-4EC3-986F-6EE4B1F44CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96C7821-EC90-4EC3-986F-6EE4B1F44CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96C7821-EC90-4EC3-986F-6EE4B1F44CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8048F00C-6F7D-45A8-B7D2-E5797EE9F21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8048F00C-6F7D-45A8-B7D2-E5797EE9F21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8048F00C-6F7D-45A8-B7D2-E5797EE9F21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8048F00C-6F7D-45A8-B7D2-E5797EE9F21B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBC793EC-21E9-439C-A92B-EC51BFD11E3C}
+	EndGlobalSection
+EndGlobal
