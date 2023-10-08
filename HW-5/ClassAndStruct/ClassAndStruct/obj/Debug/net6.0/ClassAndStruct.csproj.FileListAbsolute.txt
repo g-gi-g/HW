@@ -1,0 +1,14 @@
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\obj\Debug\net6.0\ClassAndStruct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\obj\Debug\net6.0\ClassAndStruct.AssemblyInfoInputs.cache
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\obj\Debug\net6.0\ClassAndStruct.AssemblyInfo.cs
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\obj\Debug\net6.0\ClassAndStruct.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\bin\Debug\net6.0\ClassAndStruct.exe
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\bin\Debug\net6.0\ClassAndStruct.deps.json
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\bin\Debug\net6.0\ClassAndStruct.runtimeconfig.json
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\bin\Debug\net6.0\ClassAndStruct.dll
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\bin\Debug\net6.0\ClassAndStruct.pdb
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\obj\Debug\net6.0\ClassAndStruct.dll
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\obj\Debug\net6.0\refint\ClassAndStruct.dll
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\obj\Debug\net6.0\ClassAndStruct.pdb
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\obj\Debug\net6.0\ClassAndStruct.genruntimeconfig.cache
+C:\Users\Егор\Desktop\ООП\ДЗ №5\ClassAndStruct\ClassAndStruct\obj\Debug\net6.0\ref\ClassAndStruct.dll

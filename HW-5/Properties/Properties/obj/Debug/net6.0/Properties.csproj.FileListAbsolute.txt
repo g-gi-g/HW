@@ -1,0 +1,14 @@
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\bin\Debug\net6.0\Properties.exe
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\bin\Debug\net6.0\Properties.deps.json
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\bin\Debug\net6.0\Properties.runtimeconfig.json
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\bin\Debug\net6.0\Properties.dll
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\bin\Debug\net6.0\Properties.pdb
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\obj\Debug\net6.0\Properties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\obj\Debug\net6.0\Properties.AssemblyInfoInputs.cache
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\obj\Debug\net6.0\Properties.AssemblyInfo.cs
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\obj\Debug\net6.0\Properties.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\obj\Debug\net6.0\Properties.dll
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\obj\Debug\net6.0\refint\Properties.dll
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\obj\Debug\net6.0\Properties.pdb
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\obj\Debug\net6.0\Properties.genruntimeconfig.cache
+C:\Users\Егор\Desktop\ООП\ДЗ №5\Properties\Properties\obj\Debug\net6.0\ref\Properties.dll
