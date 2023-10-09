@@ -1,11 +1,19 @@
-﻿namespace Program;
+﻿namespace Converter;
 
 class Converter
-{ 
-    
-    public decimal DollarRatio { get; set; }
+{
 
-    public decimal EuroRatio { get; set; }
+    public decimal DollarExchangeRate { get; }
+
+    public decimal EuroExchangeRate { get; }
+
+    private static void ValidateUnit(decimal value)
+    {
+        if (value <= 0)
+        {
+            throw new Exception("Exchange rate cannot be 0 or less");
+        }
+    }
 
     public Converter(decimal dollarRatio, decimal euroRatio)
     {
@@ -13,53 +21,43 @@ class Converter
 
         ValidateUnit(euroRatio);
 
-        DollarRatio = dollarRatio;
+        DollarExchangeRate = dollarRatio;
 
-        EuroRatio = euroRatio;
+        EuroExchangeRate = euroRatio;
     }
 
-    private void ValidateUnit(decimal value) 
-    {
-        if (value <= 0)
-        {
-            Console.WriteLine("Курс не може бути не додатним");
-
-            throw new Exception();
-        }
-    }
-
-    public decimal ExchangeHryvniaToDollar(decimal hryvnia)
+    public decimal ConverterToDollar(decimal hryvnia)
     {
         ValidateUnit(hryvnia);
 
-        decimal result = hryvnia/DollarRatio;
+        decimal result = hryvnia / DollarExchangeRate;
 
         return result;
     }
 
-    public decimal ExchangeHryvniaToEuro(decimal hryvnia)
+    public decimal ConverterToEuro(decimal hryvnia)
     {
         ValidateUnit(hryvnia);
 
-        decimal result = hryvnia / EuroRatio;
+        decimal result = hryvnia / EuroExchangeRate;
 
         return result;
     }
 
-    public decimal ExchangeDollarToHryvnia(decimal dollar)
+    public decimal ConverterDollarTo(decimal dollar)
     {
         ValidateUnit(dollar);
 
-        decimal result = dollar * DollarRatio;
+        decimal result = dollar * DollarExchangeRate;
 
         return result;
     }
 
-    public decimal ExchangeEuroToHryvnia(decimal euro)
+    public decimal ExchangeEuroTo(decimal euro)
     {
         ValidateUnit(euro);
 
-        decimal result = euro * EuroRatio;
+        decimal result = euro * EuroExchangeRate;
 
         return result;
     }

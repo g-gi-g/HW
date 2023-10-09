@@ -1,5 +1,5 @@
 ﻿
-namespace Program;
+namespace Converter;
 class Program
 {
     private static Converter? Converter = null;
@@ -8,27 +8,12 @@ class Program
     {
         if (!decimal.TryParse(input, out var output))
         {
-            Console.WriteLine("Введені невірні дані");
-
-            throw new Exception();
+            throw new Exception("Incorrect data");
         }
 
         return output;
     }
-    private static void HryvniaToDollar()
-    { 
-        Console.WriteLine("Введіть кількість гривні для конвертації");
-
-        var strHryvnia = Console.ReadLine();
-
-        decimal decHryvnia = ConvertFromStringToDecimal(strHryvnia);
-
-        decimal result = Converter!.ExchangeHryvniaToDollar(decHryvnia);
-
-        Console.WriteLine(result.ToString());
-    }
-
-    private static void HryvniaToEuro()
+    private static void ExchangeToDollar()
     {
         Console.WriteLine("Введіть кількість гривні для конвертації");
 
@@ -36,12 +21,25 @@ class Program
 
         decimal decHryvnia = ConvertFromStringToDecimal(strHryvnia);
 
-        decimal result = Converter!.ExchangeHryvniaToEuro(decHryvnia);
+        decimal result = Converter!.ConverterToDollar(decHryvnia);
 
         Console.WriteLine(result.ToString());
     }
 
-    private static void DollarToHryvnia()
+    private static void ExchangeToEuro()
+    {
+        Console.WriteLine("Введіть кількість гривні для конвертації");
+
+        var strHryvnia = Console.ReadLine();
+
+        decimal decHryvnia = ConvertFromStringToDecimal(strHryvnia);
+
+        decimal result = Converter!.ConverterToEuro(decHryvnia);
+
+        Console.WriteLine(result.ToString());
+    }
+
+    private static void ExchangeDollarTo()
     {
         Console.WriteLine("Введіть кількість доларів для конвертації");
 
@@ -49,12 +47,12 @@ class Program
 
         decimal decDollars = ConvertFromStringToDecimal(strDollar);
 
-        decimal result = Converter!.ExchangeDollarToHryvnia(decDollars);
+        decimal result = Converter!.ConverterDollarTo(decDollars);
 
         Console.WriteLine(result.ToString());
     }
 
-    private static void EuroToHryvnia()
+    private static void ExchangeEuroTo()
     {
         Console.WriteLine("Введіть кількість доларів для конвертації");
 
@@ -62,12 +60,12 @@ class Program
 
         decimal decEuro = ConvertFromStringToDecimal(strEuro);
 
-        decimal result = Converter!.ExchangeEuroToHryvnia(decEuro);
+        decimal result = Converter!.ExchangeEuroTo(decEuro);
 
         Console.WriteLine(result.ToString());
     }
 
-    static void Main(string[] args) 
+    static void Main(string[] args)
     {
         Console.WriteLine("Програма для конвертації гривні в долар та євро.");
         Console.WriteLine("Вводьте одне число у рядок у вимірі гривня/валюта");
@@ -75,9 +73,11 @@ class Program
         try
         {
             Console.Write("Гривня до долара: ");
+
             var dollarStr = Console.ReadLine();
 
             Console.Write("Гривня до євро: ");
+
             var euroStr = Console.ReadLine();
 
             if (!(decimal.TryParse(dollarStr, out var dollarDec)
@@ -90,7 +90,7 @@ class Program
 
             Converter = new Converter(dollarDec, euroDec);
 
-            while (true) 
+            while (true)
             {
                 Console.WriteLine("Виберіть, як хочете конвертувати валюту:");
                 Console.WriteLine("1 - з гривні у долар");
@@ -102,23 +102,22 @@ class Program
 
                 if (!int.TryParse(choice, out var command))
                 {
-                    Console.WriteLine("Некоректна команда");
-                    throw new Exception();
+                    throw new Exception("Incorrect command error");
                 }
 
                 switch (command)
                 {
                     case 1:
-                        HryvniaToDollar();
+                        ExchangeToDollar();
                         break;
                     case 2:
-                        HryvniaToEuro();
+                        ExchangeToEuro();
                         break;
                     case 3:
-                        DollarToHryvnia();
+                        ExchangeDollarTo();
                         break;
                     case 4:
-                        EuroToHryvnia();
+                        ExchangeEuroTo();
                         break;
                     default:
                         Console.WriteLine("Не вірний номер команди");
@@ -126,9 +125,9 @@ class Program
                 }
             }
         }
-        catch (Exception)
+        catch (Exception ex)
         {
-            Console.WriteLine("Сталася помилка. Завершення виконання програми");
+            Console.WriteLine($"{ex.Message}");
         }
     }
 
