@@ -1,0 +1,14 @@
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\obj\Debug\net6.0\HW_6_JSON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\obj\Debug\net6.0\HW_6_JSON.AssemblyInfoInputs.cache
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\obj\Debug\net6.0\HW_6_JSON.AssemblyInfo.cs
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\obj\Debug\net6.0\HW_6_JSON.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\bin\Debug\net6.0\HW_6_JSON.exe
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\bin\Debug\net6.0\HW_6_JSON.deps.json
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\bin\Debug\net6.0\HW_6_JSON.runtimeconfig.json
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\bin\Debug\net6.0\HW_6_JSON.dll
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\bin\Debug\net6.0\HW_6_JSON.pdb
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\obj\Debug\net6.0\HW_6_JSON.dll
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\obj\Debug\net6.0\refint\HW_6_JSON.dll
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\obj\Debug\net6.0\HW_6_JSON.pdb
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\obj\Debug\net6.0\HW_6_JSON.genruntimeconfig.cache
+C:\Users\Егор\Desktop\ООП\ДЗ №6\HW_6_JSON\HW_6_JSON\obj\Debug\net6.0\ref\HW_6_JSON.dll
