@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _6._5
+build_property.ProjectDir = C:\Users\Егор\Desktop\ООП\ДЗ №4\6.5\6.5\
+
+[C:/Users/Егор/Desktop/ООП/ДЗ №4/6.5/6.5/AddBookPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _6._5.AddBookPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AddBookPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AddBookPage.xaml
+
+[C:/Users/Егор/Desktop/ООП/ДЗ №4/6.5/6.5/AddFoodPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _6._5.AddFoodPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AddFoodPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AddFoodPage.xaml
+
+[C:/Users/Егор/Desktop/ООП/ДЗ №4/6.5/6.5/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _6._5.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Егор/Desktop/ООП/ДЗ №4/6.5/6.5/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _6._5.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Егор/Desktop/ООП/ДЗ №4/6.5/6.5/ChooseBookOrFoodPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _6._5.ChooseBookOrFoodPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ChooseBookOrFoodPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ChooseBookOrFoodPage.xaml
+
+[C:/Users/Егор/Desktop/ООП/ДЗ №4/6.5/6.5/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _6._5.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Егор/Desktop/ООП/ДЗ №4/6.5/6.5/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _6._5.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Егор/Desktop/ООП/ДЗ №4/6.5/6.5/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _6._5.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_6._5.AddBookPage"
+             Title="Додати книгу">
+    <VerticalStackLayout>
+        <Label Text="Ціна" />
+
+        <Entry Placeholder="" 
+               x:Name = "PriceEntry"/>
+
+        <Label Text="Країна походження" />
+
+        <Entry Placeholder="" 
+               x:Name = "OriginEntry"/>
+
+        <Label Text="Назва" />
+
+        <Entry Placeholder="" 
+               x:Name = "NameEntry"/>
+
+        <Label Text="Дата пакування" />
+
+        <Entry Placeholder="" 
+               x:Name = "PackingEntry"/>
+
+        <Label Text="Опис" />
+
+        <Entry Placeholder="" 
+               x:Name = "DescriptionEntry"/>
+
+        <Label Text="Кількість сторінок" />
+
+        <Entry Placeholder="" 
+               x:Name = "PagesEntry"/>
+
+        <Label Text="Видавництво" />
+
+        <Entry Placeholder="" 
+               x:Name = "PublishingHouseEntry"/>
+
+        <Label Text="Автори" />
+
+        <Entry Placeholder="" 
+               x:Name = "WriterEntry"/>
+
+        <Button Text="Додати" 
+                Clicked="AddBook"/>
+    </VerticalStackLayout>
+</ContentPage>
