@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\Егор\Desktop\ООП\ДЗ №4\6.5\6.5\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-15T21:38:29.824</Modified>
+      <Modified>2023-10-20T22:29:18.137</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Егор\Desktop\ООП\ДЗ №4\6.5\6.5\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-15T21:38:22.792</Modified>
+      <Modified>2023-10-20T22:21:21.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Егор\Desktop\ООП\ДЗ №4\6.5\6.5\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\6.5.runtimeconfig.json">
       <PackagePath>6.5.runtimeconfig.json</PackagePath>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Егор\Desktop\ООП\ДЗ №4\6.5\6.5\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\6.5.dll">
       <PackagePath>6.5.dll</PackagePath>
-      <Modified>2023-10-15T21:38:28.222</Modified>
+      <Modified>2023-10-20T22:29:16.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Егор\Desktop\ООП\ДЗ №4\6.5\6.5\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>6.5.exe</PackagePath>
-      <Modified>2023-10-15T21:38:28.308</Modified>
+      <Modified>2023-10-20T22:29:16.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Егор\Desktop\ООП\ДЗ №4\6.5\6.5\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\6.5.deps.json">
       <PackagePath>6.5.deps.json</PackagePath>
-      <Modified>2023-10-15T20:01:01.601</Modified>
+      <Modified>2023-10-16T11:44:14.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Егор\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.23\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

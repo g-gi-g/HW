@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_6._5.DeletePage"
+             Title="Видалити товар">
+    
+    <VerticalStackLayout
+        Spacing="50"
+        Padding="30,0"
+        VerticalOptions="Center">
+        
+        <RadioButton Content="Видалити книгу"
+             GroupName ="AddOption" 
+             x:Name="DeleteBookRadioBtn" 
+             IsChecked="True"/>
+
+        <RadioButton Content="Видалити їжу" 
+             GroupName ="AddOption" 
+             x:Name="DeleteFoodRadioBtn" 
+             IsChecked="False"/>
+
+        <Entry Placeholder="Індекс товару, що видаляється"
+               x:Name="IndexEntry"/>
+
+        <Button Text="Видалити" 
+                Clicked="OnDeleteBtnClicked"/>
+        
+    </VerticalStackLayout>
+    
+</ContentPage>

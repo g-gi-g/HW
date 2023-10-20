@@ -1,5 +1,4 @@
-﻿
-namespace Supply;
+﻿namespace Supply;
 
 public class Products
 {

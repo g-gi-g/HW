@@ -6,13 +6,10 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="AddBookPage.xaml">
+    <MauiXaml Update="AddPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="AddFoodPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="ChooseBookOrFoodPage.xaml">
+    <MauiXaml Update="DeletePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

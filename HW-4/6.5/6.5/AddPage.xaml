@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_6._5.AddPage"
+             Title="Додати товар">
+    
+    <ScrollView>
+        
+        <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
+
+            <RadioButton Content="Додати книгу"
+                     GroupName ="AddOption" 
+                     x:Name="AddBookRadioBtn" 
+                     IsChecked="True"/>
+
+            <RadioButton Content="Додати їжу" 
+                     GroupName ="AddOption" 
+                     x:Name="AddFoodRadioBtn" 
+                     IsChecked="False"/>
+
+            <Label Text="Ціна" />
+
+            <Entry x:Name = "PriceEntry"/>
+
+            <Label Text="Країна походження" />
+
+            <Entry x:Name = "OriginEntry"/>
+
+            <Label Text="Назва" />
+
+            <Entry x:Name = "NameEntry"/>
+
+            <Label Text="Дата пакування" />
+
+            <Entry x:Name = "PackingEntry"/>
+
+            <Label Text="Опис" />
+
+            <Entry x:Name = "DescriptionEntry"/>
+
+            <Label Text="Строк придатності" 
+               x:Name="ExpireLabel"
+               IsVisible="False"/>
+
+            <Entry x:Name = "ExpireEntry"
+               IsVisible="False"/>
+
+            <Label Text="Кількість" 
+               x:Name="AmountLabel"
+               IsVisible="False"/>
+
+            <Entry x:Name = "AmountEntry"
+               IsVisible="False"/>
+
+            <Label Text="Одиниця виміру" 
+               x:Name="UnitLabel"
+               IsVisible="False"/>
+
+            <Entry x:Name = "UnitEntry"
+               IsVisible="False"/>
+
+            <Label Text="Кількість сторінок" 
+               x:Name="PagesLabel"/>
+
+            <Entry x:Name = "PagesEntry"/>
+
+            <Label Text="Видавництво" 
+               x:Name="PublishingHouseLabel"/>
+
+            <Entry x:Name = "PublishingHouseEntry"/>
+
+            <Label Text="Автори" 
+               x:Name="WriterLabel"/>
+
+            <Entry x:Name = "WriterEntry"/>
+
+            <Button Text="Додати" 
+                Clicked="ChooseMethod"/>
+
+        </VerticalStackLayout>
+        
+    </ScrollView>
+    
+</ContentPage>
