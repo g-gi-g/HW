@@ -1,6 +1,4 @@
-﻿using System.Text.Json.Serialization;
-
-namespace JsonProj;
+﻿namespace JsonProj;
 
 class Book
 {
@@ -8,9 +6,9 @@ class Book
     public int PublishingHouseId { get; set; }
 
     //[JsonPropertyName("Name")] //3 Завдання
-    public string Title { get; set; }
+    public string? Title { get; set; }
 
-    public PublishingHouseClass PublishingHouse { get; set; }
+    public PublishingHouse? PublishingHouse { get; set; }
 
     public void ShowInfo()
     {
